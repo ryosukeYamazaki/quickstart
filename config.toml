@@ -1,0 +1,29 @@
+languageCode = "ja"
+baseUrl = ""
+title = "Anubis"
+theme = "anubis"
+paginate = 10
+disqusShortname = "yourdiscussshortname"
+# googleAnalytics = "UA-123-45"
+enableRobotsTXT = true
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+title = "Archive"
+url = "/posts/"
+weight = 0
+
+[params]
+author = ""
+description = ""
+images = [ "images/og-featured.png" ]
+# customCSS = [ "css/my.css" ]
+# customJS = [ "js/main.js" ]
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "light-without-switcher"
+readMore = false
+
+[markup.goldmark.renderer]
+unsafe = true
