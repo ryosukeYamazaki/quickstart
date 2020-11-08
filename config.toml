@@ -1,5 +1,5 @@
 languageCode = "ja"
-baseUrl = ""
+baseUrl = "https://ryosukeYamazaki.github.io"
 title = "Anubis"
 theme = "anubis"
 paginate = 10
