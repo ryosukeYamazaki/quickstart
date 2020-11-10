@@ -1,6 +1,6 @@
 languageCode = "ja"
 baseUrl = "https://ryosukeYamazaki.github.io"
-title = "Anubis"
+title = "moaiの走り書き"
 theme = "anubis"
 paginate = 10
 disqusShortname = "yourdiscussshortname"
@@ -9,13 +9,13 @@ enableRobotsTXT = true
 
 [[menu.main]]
 identifier = "archive"
-name = "Archive"
+name = "moaiの走り書き"
 title = "Archive"
 url = "/posts/"
 weight = 0
 
 [params]
-author = ""
+author = "moai"
 description = ""
 images = [ "images/og-featured.png" ]
 # customCSS = [ "css/my.css" ]
