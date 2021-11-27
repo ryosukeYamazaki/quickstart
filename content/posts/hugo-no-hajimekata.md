@@ -6,13 +6,8 @@ draft: false
 
 # installする
 
-linuxの場合はsnapをつかってinstallする。  
-
-```sh
-sudo snap install hugo --channel=extended
-```
-
-aptのinstallでは最新バージョンが落ちてこないので注意。
+https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。
+ソースからbuildする
 
 # テーマをダウンロードする
 
