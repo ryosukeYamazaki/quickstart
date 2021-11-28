@@ -27,3 +27,4 @@ readMore = false
 
 [markup.goldmark.renderer]
 unsafe = true
+hardWraps = true
