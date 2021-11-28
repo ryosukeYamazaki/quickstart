@@ -23,12 +23,10 @@ Greenは見たことある。
 
 - 227企業
 - 549求人
-![名古屋のWeb企業求人数検索結果](https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692)
-
+[![名古屋のWeb企業求人数検索結果](https://i.gyazo.com/424c9015e919fcd25e80cc9e15c1a692.png)](https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692)
 
 # 東京
 
 - 2138企業
 - 6641求人
-![名古屋のWeb企業求人数検索結果](https://gyazo.com/3118f98cba1676935d97fa01516d1c34)
-
+[![東京のWeb企業求人数検索結果](https://i.gyazo.com/3118f98cba1676935d97fa01516d1c34.png)](https://gyazo.com/3118f98cba1676935d97fa01516d1c34)
