@@ -1,5 +1,5 @@
 ---
-title: "Hugo_build_lock"
+title: ".hugo_build.lock って何さ？"
 date: 2021-11-28T08:12:55+09:00
 draft: false
 ---
