@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 08:12:55 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo_build_lock</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 08:23:06 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+&lt;p>このブログのdeploy方法&lt;/p>
+&lt;h1 id="やること">やること&lt;/h1>
+&lt;p>これを実行する&lt;/p>
+&lt;pre>&lt;code>make deploy
+&lt;/code>&lt;/pre></description></item><item><title>Hugo_build_lock</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>&lt;code>.hugo_build.lock&lt;/code> ファイルって何？&lt;/p>
 &lt;h1 id="build用のロックファイル">build用のロックファイル。&lt;/h1>
 &lt;p>&lt;a href="https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417">https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417&lt;/a>&lt;/p>
@@ -13,7 +18,7 @@
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>のように。&lt;/p>
-&lt;p>開発していると git コマンドは大量につかう。
+&lt;p>開発していると git コマンドは大量につかう。&lt;br>
 そのため、省略することで作業を効率化したい。&lt;/p>
 &lt;p>今回、使用する alias の機能は2種類。&lt;/p>
 &lt;ul>
@@ -58,13 +63,12 @@ st = status # 追記する箇所はここ。
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。&lt;br>
 便利。&lt;/p></description></item><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
-&lt;p>linuxの場合はsnapをつかってinstallする。&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">sudo snap install hugo --channel&lt;span style="color:#f92672">=&lt;/span>extended
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>aptのinstallでは最新バージョンが落ちてこないので注意。&lt;/p>
+&lt;p>&lt;a href="https://gohugo.io/getting-started/installing/#fetch-from-github">https://gohugo.io/getting-started/installing/#fetch-from-github&lt;/a> にある通り。&lt;br>
+ソースからbuildする&lt;/p>
 &lt;h1 id="テーマをダウンロードする">テーマをダウンロードする&lt;/h1>
-&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>
+&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>&lt;br>
 私はこのテーマをダウンロードした。&lt;/p>
 &lt;h1 id="yamlファイルをtomlに変換する">yamlファイルをtomlに変換する&lt;/h1>
 &lt;p>上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br>
