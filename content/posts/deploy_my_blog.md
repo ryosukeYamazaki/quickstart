@@ -1,5 +1,5 @@
 ---
-title: "Deploy_my_blog"
+title: "このブログのdeploy方法"
 date: 2021-11-28T08:23:06+09:00
 draft: false
 ---
@@ -14,5 +14,5 @@ draft: false
 
 これを実行する
 ```
-sh ./deploy.sh
+make deploy
 ```
