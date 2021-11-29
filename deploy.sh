@@ -6,6 +6,9 @@ git submodule update --remote public
 # Build the project.
 hugo --minify # if using a theme, replace by `hugo -t <yourtheme>`
 
+# copy deploy favicon.png
+cp -p static/images/favicon.* public/
+
 # Go To Public folder
 cd public
 # Add changes to git.

@@ -16,14 +16,14 @@ weight = 0
 
 [params]
 author = "moai"
-description = ""
-images = [ "images/og-featured.png" ]
+description = "moaiの走り書き"
+images = [ "images/moai.png" ]
 # customCSS = [ "css/my.css" ]
 # customJS = [ "js/main.js" ]
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 style = "light-without-switcher"
-readMore = false
+readMore = true
 
 [markup.goldmark.renderer]
 unsafe = true
