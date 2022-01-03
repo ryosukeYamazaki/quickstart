@@ -4,7 +4,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 git submodule update --remote public
 
 # Build the project.
-hugo --minify # if using a theme, replace by `hugo -t <yourtheme>`
+HUGO_ENV=production hugo --minify
 
 # copy deploy favicon.png
 cp -p static/images/favicon.* public/
