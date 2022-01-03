@@ -1,1 +1,29 @@
-<!doctype html><html lang=ja data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>Tags - moaiの走り書き</title><meta name=description content="moaiの走り書き"><link rel=alternate type=application/rss+xml href=https://ryosukeYamazaki.github.io/tags/index.xml title=moaiの走り書き><link rel=icon type=image/x-icon href=https://ryosukeYamazaki.github.io/favicon.ico><link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png><link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.bf67952500c522fa4be2b487513979e2a6f82a03826f34db9e4592670b2a1c3b.css integrity="sha256-v2eVJQDFIvpL4rSHUTl54qb4KgOCbzTbnkWSZwsqHDs="><meta property="og:title" content="Tags"><meta property="og:description" content="moaiの走り書き"><meta property="og:type" content="website"><meta property="og:url" content="https://ryosukeYamazaki.github.io/tags/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/moai.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/moai.png"><meta name=twitter:title content="Tags"><meta name=twitter:description content="moaiの走り書き"></head><body><a class=skip-main href=#main>Skip to main content</a><div class=container><header class=common-header><h1 class=site-title><a href=/>moaiの走り書き</a></h1><nav><a href=https://ryosukeYamazaki.github.io/posts/ title=Archive>moaiの走り書き</a></nav></header><main id=main tabindex=-1><div class=index-content></div><h1>Tags</h1><ul class=terms></ul></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© moai, 2021<br>Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.</p></div></div></footer></div></body></html>
+<!doctype html><html lang=ja data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>Tags - moaiの走り書き</title><meta name=description content="moaiの走り書き"><link rel=alternate type=application/rss+xml href=https://ryosukeYamazaki.github.io/tags/index.xml title=moaiの走り書き><link rel=icon type=image/x-icon href=https://ryosukeYamazaki.github.io/favicon.ico><link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png><link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.bf67952500c522fa4be2b487513979e2a6f82a03826f34db9e4592670b2a1c3b.css integrity="sha256-v2eVJQDFIvpL4rSHUTl54qb4KgOCbzTbnkWSZwsqHDs="><meta property="og:title" content="Tags"><meta property="og:description" content="moaiの走り書き"><meta property="og:type" content="website"><meta property="og:url" content="https://ryosukeYamazaki.github.io/tags/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/moai.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/moai.png"><meta name=twitter:title content="Tags"><meta name=twitter:description content="moaiの走り書き"></head><body><a class=skip-main href=#main>Skip to main content</a><div class=container><header class=common-header><h1 class=site-title><a href=/>moaiの走り書き</a></h1><nav><a href=https://ryosukeYamazaki.github.io/posts/ title=Archive>moaiの走り書き</a></nav></header><main id=main tabindex=-1><div class=index-content></div><h1>Tags</h1><ul class=terms></ul></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© moai, 2022<br>Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.</p></div><button class=theme-switcher>
+Dark theme</button>
+<script>const STORAGE_KEY='user-color-scheme'
+const defaultTheme="auto"
+let currentTheme
+let switchButton
+let autoDefinedScheme=window.matchMedia('(prefers-color-scheme: dark)')
+const autoChangeScheme=e=>{currentTheme=e.matches?'dark':'light'
+document.documentElement.setAttribute('data-theme',currentTheme)
+changeButtonText()}
+document.addEventListener('DOMContentLoaded',function(){switchButton=document.querySelector('.theme-switcher')
+currentTheme=detectCurrentScheme()
+if(currentTheme=='dark'){document.documentElement.setAttribute('data-theme','dark')}
+if(currentTheme=='auto'){autoChangeScheme(autoDefinedScheme);autoDefinedScheme.addListener(autoChangeScheme);}
+changeButtonText()
+switchButton.addEventListener('click',switchTheme,false)})
+function detectCurrentScheme(){if(localStorage.getItem(STORAGE_KEY)){return localStorage.getItem(STORAGE_KEY)}
+if(defaultTheme){return defaultTheme}
+if(!window.matchMedia){return 'light'}
+if(window.matchMedia('(prefers-color-scheme: dark)').matches){return 'dark'}
+return 'light'}
+function changeButtonText()
+{switchButton.textContent=currentTheme=='dark'?"Light theme":"Dark theme"}
+function switchTheme(e){if(currentTheme=='dark'){localStorage.setItem(STORAGE_KEY,'light')
+document.documentElement.setAttribute('data-theme','light')
+currentTheme='light'}else{localStorage.setItem(STORAGE_KEY,'dark')
+document.documentElement.setAttribute('data-theme','dark')
+currentTheme='dark'}
+changeButtonText()}</script></div></footer></div></body></html>
