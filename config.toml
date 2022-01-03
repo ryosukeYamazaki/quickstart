@@ -6,6 +6,8 @@ paginate = 10
 disqusShortname = "https-ryosukeyamazaki-github-io"
 googleAnalytics = "G-TZB8933TSH"
 enableRobotsTXT = true
+hasCJKLanguage = true
+summaryLength = 140
 
 [[menu.main]]
 identifier = "archive"
