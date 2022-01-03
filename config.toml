@@ -3,7 +3,7 @@ baseUrl = "https://ryosukeYamazaki.github.io"
 title = "moaiの走り書き"
 theme = "anubis"
 paginate = 10
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "https-ryosukeyamazaki-github-io"
 googleAnalytics = "G-TZB8933TSH"
 enableRobotsTXT = true
 
