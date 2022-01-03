@@ -4,7 +4,7 @@ title = "moaiの走り書き"
 theme = "anubis"
 paginate = 10
 disqusShortname = "yourdiscussshortname"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-TZB8933TSH"
 enableRobotsTXT = true
 
 [[menu.main]]
@@ -22,7 +22,7 @@ images = [ "images/moai.png" ]
 # customJS = [ "js/main.js" ]
 dateFormat = "2006-01-02"
 paginationSinglePost = true
-style = "light-without-switcher"
+style = "auto"
 readMore = true
 
 [markup.goldmark.renderer]
