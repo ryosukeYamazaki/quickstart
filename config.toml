@@ -10,17 +10,18 @@ hasCJKLanguage = true
 summaryLength = 140
 
 [[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+title = "Tags"
+weight = 2
+
+[[menu.main]]
 identifier = "archive"
 name = "moaiの走り書き"
 title = "Archive"
 url = "/posts/"
 weight = 0
-
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 2
 
 [taxonomies]
 category = "categories"
@@ -30,8 +31,6 @@ tag = "tags"
 author = "moai"
 description = "moaiの走り書き"
 images = [ "images/moai.png" ]
-# customCSS = [ "css/my.css" ]
-# customJS = [ "js/main.js" ]
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 style = "auto"
