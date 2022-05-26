@@ -1,5 +1,6 @@
 ---
 title: "Aliasを使って Git の頻出コマンドを効率化する"
+description: "Aliasを使って Git の頻出コマンドを効率化する"
 date: 2020-12-14T12:49:03+09:00
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Gatsby プロジェクトの作り方"
+description: "Gatsby プロジェクトの作り方"
 date: 2021-12-05T17:30:29+09:00
 draft: true
 ---
