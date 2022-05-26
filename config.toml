@@ -9,16 +9,31 @@ enableRobotsTXT = true
 hasCJKLanguage = true
 summaryLength = 140
 
+[[params.social]]
+id = "github"
+url = "https://github.com/ryosukeYamazaki"
+
+[[params.social]]
+id = "twitter"
+url = "https://twitter.com/moaieee"
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+title = "About"
+url = "/about/"
+weight = 0
+
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
 title = "Tags"
-weight = 2
+weight = 0
 
 [[menu.main]]
 identifier = "archive"
-name = "moaiの走り書き"
+name = "Archive"
 title = "Archive"
 url = "/posts/"
 weight = 0
