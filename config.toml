@@ -16,6 +16,12 @@ title = "Archive"
 url = "/posts/"
 weight = 0
 
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
 [params]
 author = "moai"
 description = "moaiの走り書き"
