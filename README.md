@@ -5,8 +5,9 @@ pushする。するとdeployされる。そのため、push = deploy。
 # 新規記事の作成方法
 
 ```sh
-make posts.new
+make posts.new TITLE=nice_content
 ```
+TITLEの部分はよしなに書き換えてください。
 
 # localでの起動方法
 
