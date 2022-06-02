@@ -4,14 +4,14 @@ pushする。するとdeployされる。そのため、push = deploy。
 
 # 新規記事の作成方法
 
-```sh
+```console
 make posts.new TITLE=nice_content
 ```
 TITLEの部分はよしなに書き換えてください。
 
 # localでの起動方法
 
-```sh
+```console
 hugo server -D
 ```
 
@@ -21,7 +21,7 @@ hugo server -D
 ## もし直前の起動コマンドでも白いページが表示されていたら
 
 以下のコマンドを打つと解決する。
-```sh
+```console
 git submodule update --init --recursive
 ```
 
