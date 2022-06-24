@@ -2,7 +2,3 @@
 	path = public
 	url = git@github.com:ryosukeYamazaki/ryosukeYamazaki.github.io
 	branch = main
-[submodule "themes/anubis"]
-	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis
-	branch = master

@@ -1,0 +1,23 @@
+# Markdown renderer configuration
+[goldmark.renderer]
+unsafe = true
+hardWraps = true
+
+[tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[highlight]
+anchorLineNos = true
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
