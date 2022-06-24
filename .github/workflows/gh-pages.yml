@@ -21,9 +21,6 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo mod graph
-
-      - name: Build
         run: hugo --minify
 
       - name: Deploy
