@@ -1,10 +1,18 @@
 ---
-title: Links
+title: リンク集
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    description: 作った制作物。プログラミングの練習などの成果物もこちらに上げています。
+    website: https://github.com/ryosukeYamazaki
+    image: https://avatars.githubusercontent.com/u/3174862?s=400&u=2e983823599cae3230fd4e844878b49810c9f7a2&v=4
+  - title: Twitter
+    description: 断片的な思考過程を呟いています。。
+    website: https://twitter.com/moaieee
+    image: https://pbs.twimg.com/profile_images/1449636439952556040/cZbRNgK3_400x400.jpg
+  - title: note
+    description: 主にマネジメントやチームについてはここにまとめています。
+    website: https://note.com/moain
+    image: https://assets.st-note.com/production/uploads/images/28644069/profile_e148b657a63ccbc22508dbcedf9fbf10.png?width=200&crop=1:1,smart
 menu:
     main: 
         weight: 4
@@ -14,20 +22,4 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+他のページでまとめた制作物のリンク集です。

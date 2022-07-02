@@ -1,13 +1,25 @@
 ---
-title: "About"
+title: "moaiについて"
+description: "moai自身についての説明"
 date: 2022-05-26T16:12:48+09:00
 draft: false
+slug: "about"
+menu:
+    main:
+        weight: 3
+        params:
+            icon: user
 ---
+
+こんにちは。ようこそmoai商店へ。
+
+moai商店を運営するmoaiです。
+ここではmoaiはどんな人なのかを説明します。
 
 # 人物紹介
 
-- 山崎遼介
-- 2012から一貫してソフトウェア開発を生業にしている
+- 本名：山崎遼介
+- 2012年から一貫してソフトウェア開発を生業にしている
 
 # 人に提供できそうなこと
 
@@ -46,3 +58,8 @@ draft: false
 
 - コーチング（資格あり）
 - Agile（CSMを一時期持っていた）
+
+# 学歴
+
+TBD
+
