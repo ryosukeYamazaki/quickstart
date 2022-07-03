@@ -3,6 +3,7 @@ title: "hugoの記事の作り方"
 description: "hugoの記事の作り方"
 date: 2021-11-21T19:45:36+09:00
 draft: false
+tags: ["hugo"]
 ---
 
 

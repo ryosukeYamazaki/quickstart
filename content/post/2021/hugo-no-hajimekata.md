@@ -3,6 +3,7 @@ title: "hugoの始め方"
 description: "hugoの始め方"
 date: 2020-11-08T19:45:36+09:00
 draft: false
+tags: ["hugo"]
 ---
 
 # installする

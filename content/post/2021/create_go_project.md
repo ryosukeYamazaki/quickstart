@@ -3,6 +3,7 @@ title: "Goプロジェクトの作り方"
 description: "Goプロジェクトの作り方"
 date: 2021-12-05T12:49:18+09:00
 draft: false
+tags: ["Golang"]
 ---
 
 # これ何？
