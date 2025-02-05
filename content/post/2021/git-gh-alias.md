@@ -49,7 +49,7 @@ git st
 	helper = store
 [user]
 	name = ryosukeYamazaki
-	email = ryamazaki@c-fo.com
+	email = hamilton0826@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
